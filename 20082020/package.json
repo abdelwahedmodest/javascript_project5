@@ -1,0 +1,20 @@
+{
+  "name": "begin",
+  "version": "1.0.0",
+  "description": "this is a simple web app  to begin  learn about  some framework of javascript like nodejs express mogoose and more",
+  "main": "app.js",
+  "scripts": {
+    "test": "dont knew"
+  },
+  "repository": {
+    "type": "git",
+    "url": "not for moment"
+  },
+  "keywords": [
+    "no",
+    "time",
+    "for"
+  ],
+  "author": "abdelwahed",
+  "license": "MIT"
+}

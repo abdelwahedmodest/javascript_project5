@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>german website</title>
+	</head>
+	<body>   
+		<div style="background-color:green;border:5px dashed yellow;width:450;height:35;"><h1  style="margin-Top:-10;">Verbens</h1></div>
+   	</body>
+	 <script  langauge ="javascript" > 
+
+		 var infinitiv = new Array("Infinitiv","backen","sich befinden", "beginin","begreifen","behalten","bekommen","beraten","beschliessen","besprechen","bestehen","betragen","betrten","sich bewerben", "bieten","bitten","braten","brechen","brennen","bringen","denken","drufen","empfangen","empfehlen","empfinden","entlassen","entscheiden","sich entschliessen","erfahren","erfinden","erschrecken","erziehen","Essen","fahren","fallen","fangen","finden","fliegen","fliehen","fliessen","frieren","geben","gefallen","gehen","gelingen","geniessen","geschehen","gewinnnen","greifen","haben","halten","hangen","heben","heissen","helfen","kennen","klingen","kommen","konnen","laden","lassen","laufen","leiden","leihen","lesen","liegen","lugen","messen","nehmen","nennen","raten","reiten","rennen","riechen","rufen","scheinen","shieben","schlafen","schlagen","schliessen","schneiden","schreiben","schreien","schweigen","schwimmen","sehen","sein","senden","singen","sitzen","sprechen","springen","stehen","stehlen");
+ 
+
+var  prasens = new Array("Prasens","backt","binfindet","beginnt","begreift","behalt","bekommt","berat","beschliesst","bespricht","besteht","betragt","betritt","bewirbtsich","bietet","bittet","bleibt","brat","bricht","brennt","bringt","denkt","darf","empfangt","empfiehlt","empfindet","entlasst","entscheidet","sich ntschliesst","erfahrt","erfindet","erschrickt","erzieht","isst","fahrt","fallt","fangt"," findet","fliegt","flieht","fliesst","friert","gibt","gefallt","geht","gelingt","gilt","geniesst","geschieht","gewinnt","greift","habt","halt","hangt","hebt","heisst","hilft","kennt","klingt","kommt","kann","ladt","lasstlauft","leidet","leiht","liest","liegt","lugt","misst","nimmt","nennt","rat","reitet","rennt","riecht","ruft","scheint","schiebt","schlaft","schlagt","schliesst","schneidet","schreibt","schreit","schweigt","schwimmt","sieht","ist","sendet","singt","sitzt","spricht","springt","steht","stiehlt");
+                             
+           for(var i=0 ;  i < infinitiv.length ; i++){
+		   var   h = document.createElement("h1");
+		   var   h2 = document.createElement("h1");
+		   var   space = document.createElement("br") ;
+                   h.innerHTML =  infinitiv[i] ;
+		   h2.innerHTML = prasens[i] ;
+                   h2.style.marginLeft = 240 ;
+		   h2.style.marginTop = -60 ;
+		   h.style.backgroundColor = "yellow" ;
+		   h2.style.backgroundColor = "blue" ;
+                   document.body.appendChild(h) ;
+		   document.body.appendChild(h2) ;
+		   h2.appendChild(space) ;
+		   h.appendChild(space) ;
+
+	   }
+
+
+	</script>
+
+</html>
+
+
+
+
